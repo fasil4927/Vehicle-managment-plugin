@@ -1,0 +1,82 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:   https://wordpress.org/themes/twentyseventeen/
+ Description:  Twenty Seventeen Child Theme
+ Author:       Fasil
+ Author URI:   https://stackoverflow.com/users/5695033/fasil-palanthodi
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyseventeenchild
+*/
+
+
+.vehicle_details ,.vehicle_detail {
+    float: left;
+    width: 100%;         
+}
+
+.vehicle_detail {
+    margin-bottom: 10px;
+    border-bottom: 4px solid #eee;
+}
+
+.vehicle_image {
+    float: left;
+    width: 32%;
+    margin-right: 10px;
+    padding: 5px;    
+    border-radius: 3px;
+    border: 1px solid #eee;
+}
+.vehicle_detail_content {
+    float: left;
+    width: 62%;
+}
+
+.vehicle_title {
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid #eee;
+}
+
+.vehicle_number {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.driver_name {
+    float: right;
+    width: 50%;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.more-details{
+    
+}
+
+.button {
+  background-color: #f44336; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.vehicle_details p.link-more{
+    display: none;
+}
