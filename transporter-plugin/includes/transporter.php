@@ -262,12 +262,12 @@ class Transporter {
                             <tbody>
                                 <tr>
                                     <td class="first"><input type="text" id="vehicle_title" name="vehicle_title" value="<?php echo esc_attr($vehicle_title); ?>" size="25" placeholder="Vehicle Title" /></td>
-                                    <td class="first" colspan="2"><?php
+                                    <td class="first"><?php
             $terms = get_terms(array('taxonomy' => 'vehicle_types', 'orderby' => 'name'));
             if (!empty($terms)) {
                 ?>
-                                            <select id="vehicle_type" class="vehicle_type" name="vehicle_type">
-                                                <option value="">Select Type</option> 
+                                            <select id="vehicle_type" class="vehicle_type input-select" name="vehicle_type">
+                                                <option value="">Select Vehicle Type</option> 
                                             <?php
                                             foreach ($terms as $term) :
                                                 echo '<option ' . ($vehicle_type == $term->slug ? ' selected' : '') . '  value="' . $term->slug . '">' . $term->name . '</option>';
@@ -278,6 +278,7 @@ class Transporter {
                                             }
                                             ?>
                                     </td>
+                                    <td></td>
                                 </tr>                
                                 <tr>
                                     <td class="first"><input type="text" id="vehicle_number" name="vehicle_number" value="<?php echo esc_attr($vehicle_number); ?>" size="25" placeholder="Vehicle Number" /></td>
