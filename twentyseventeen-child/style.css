@@ -13,11 +13,6 @@
 */
 
 
-.vehicle_details ,.vehicle_detail {
-    float: left;
-    width: 100%;         
-}
-
 .vehicle_detail {
     margin-bottom: 10px;
     border-bottom: 4px solid #eee;
@@ -79,4 +74,17 @@
 }
 .vehicle_details p.link-more{
     display: none;
+}
+
+.vehicle_details ,.vehicle_detail {
+    float: left;
+    width: 100% !important;         
+}
+
+.vehicle_filtering{
+    float: left;
+    width: 100%;    
+}
+.input-select.vehicle_type{
+    width: 100%;
 }
